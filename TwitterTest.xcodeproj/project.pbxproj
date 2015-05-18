@@ -14,6 +14,14 @@
 		580C77BE1B05BB0F007EBFC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580C77BD1B05BB0F007EBFC7 /* Images.xcassets */; };
 		580C77C11B05BB0F007EBFC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 580C77BF1B05BB0F007EBFC7 /* LaunchScreen.xib */; };
 		580C77CD1B05BB0F007EBFC7 /* TwitterTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 580C77CC1B05BB0F007EBFC7 /* TwitterTestTests.m */; };
+		580C77D81B05BEC1007EBFC7 /* CellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 580C77D71B05BEC1007EBFC7 /* CellData.m */; };
+		580C77DB1B05C135007EBFC7 /* ContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 580C77DA1B05C135007EBFC7 /* ContentTableViewCell.m */; };
+		580C77DD1B05D1C8007EBFC7 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580C77DC1B05D1C8007EBFC7 /* Accounts.framework */; };
+		580C77DF1B05D1D1007EBFC7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580C77DE1B05D1D1007EBFC7 /* Social.framework */; };
+		580C77E21B061CB5007EBFC7 /* ApiAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 580C77E11B061CB5007EBFC7 /* ApiAccess.m */; };
+		580C77E51B06209A007EBFC7 /* ApiAccessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 580C77E41B06209A007EBFC7 /* ApiAccessManager.m */; };
+		587A74371B09A67A0089D538 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 587A74361B09A67A0089D538 /* LoadingView.m */; };
+		587A74391B09A6C10089D538 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 587A74381B09A6C10089D538 /* LoadingView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,19 @@
 		580C77C61B05BB0F007EBFC7 /* TwitterTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		580C77CB1B05BB0F007EBFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		580C77CC1B05BB0F007EBFC7 /* TwitterTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterTestTests.m; sourceTree = "<group>"; };
+		580C77D61B05BEC1007EBFC7 /* CellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellData.h; sourceTree = "<group>"; };
+		580C77D71B05BEC1007EBFC7 /* CellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellData.m; sourceTree = "<group>"; };
+		580C77D91B05C135007EBFC7 /* ContentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentTableViewCell.h; sourceTree = "<group>"; };
+		580C77DA1B05C135007EBFC7 /* ContentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentTableViewCell.m; sourceTree = "<group>"; };
+		580C77DC1B05D1C8007EBFC7 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		580C77DE1B05D1D1007EBFC7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		580C77E01B061CB5007EBFC7 /* ApiAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiAccess.h; sourceTree = "<group>"; };
+		580C77E11B061CB5007EBFC7 /* ApiAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiAccess.m; sourceTree = "<group>"; };
+		580C77E31B06209A007EBFC7 /* ApiAccessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiAccessManager.h; sourceTree = "<group>"; };
+		580C77E41B06209A007EBFC7 /* ApiAccessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiAccessManager.m; sourceTree = "<group>"; };
+		587A74351B09A67A0089D538 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		587A74361B09A67A0089D538 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		587A74381B09A6C10089D538 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580C77DF1B05D1D1007EBFC7 /* Social.framework in Frameworks */,
+				580C77DD1B05D1C8007EBFC7 /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,8 @@
 		580C77A41B05BB0F007EBFC7 = {
 			isa = PBXGroup;
 			children = (
+				580C77DE1B05D1D1007EBFC7 /* Social.framework */,
+				580C77DC1B05D1C8007EBFC7 /* Accounts.framework */,
 				580C77AF1B05BB0F007EBFC7 /* TwitterTest */,
 				580C77C91B05BB0F007EBFC7 /* TwitterTestTests */,
 				580C77AE1B05BB0F007EBFC7 /* Products */,
@@ -81,11 +106,22 @@
 		580C77AF1B05BB0F007EBFC7 /* TwitterTest */ = {
 			isa = PBXGroup;
 			children = (
+				580C77BA1B05BB0F007EBFC7 /* Main.storyboard */,
 				580C77B41B05BB0F007EBFC7 /* AppDelegate.h */,
 				580C77B51B05BB0F007EBFC7 /* AppDelegate.m */,
 				580C77B71B05BB0F007EBFC7 /* ViewController.h */,
 				580C77B81B05BB0F007EBFC7 /* ViewController.m */,
-				580C77BA1B05BB0F007EBFC7 /* Main.storyboard */,
+				580C77D61B05BEC1007EBFC7 /* CellData.h */,
+				580C77D71B05BEC1007EBFC7 /* CellData.m */,
+				580C77D91B05C135007EBFC7 /* ContentTableViewCell.h */,
+				580C77DA1B05C135007EBFC7 /* ContentTableViewCell.m */,
+				580C77E01B061CB5007EBFC7 /* ApiAccess.h */,
+				580C77E11B061CB5007EBFC7 /* ApiAccess.m */,
+				580C77E31B06209A007EBFC7 /* ApiAccessManager.h */,
+				580C77E41B06209A007EBFC7 /* ApiAccessManager.m */,
+				587A74351B09A67A0089D538 /* LoadingView.h */,
+				587A74361B09A67A0089D538 /* LoadingView.m */,
+				587A74381B09A6C10089D538 /* LoadingView.xib */,
 				580C77BD1B05BB0F007EBFC7 /* Images.xcassets */,
 				580C77BF1B05BB0F007EBFC7 /* LaunchScreen.xib */,
 				580C77B01B05BB0F007EBFC7 /* Supporting Files */,
@@ -200,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				580C77BC1B05BB0F007EBFC7 /* Main.storyboard in Resources */,
+				587A74391B09A6C10089D538 /* LoadingView.xib in Resources */,
 				580C77C11B05BB0F007EBFC7 /* LaunchScreen.xib in Resources */,
 				580C77BE1B05BB0F007EBFC7 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +256,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580C77E21B061CB5007EBFC7 /* ApiAccess.m in Sources */,
+				587A74371B09A67A0089D538 /* LoadingView.m in Sources */,
+				580C77E51B06209A007EBFC7 /* ApiAccessManager.m in Sources */,
 				580C77B91B05BB0F007EBFC7 /* ViewController.m in Sources */,
 				580C77B61B05BB0F007EBFC7 /* AppDelegate.m in Sources */,
 				580C77B31B05BB0F007EBFC7 /* main.m in Sources */,
+				580C77D81B05BEC1007EBFC7 /* CellData.m in Sources */,
+				580C77DB1B05C135007EBFC7 /* ContentTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TwitterTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +401,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TwitterTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +460,7 @@
 				580C77D21B05BB0F007EBFC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		580C77D31B05BB0F007EBFC7 /* Build configuration list for PBXNativeTarget "TwitterTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +469,7 @@
 				580C77D51B05BB0F007EBFC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

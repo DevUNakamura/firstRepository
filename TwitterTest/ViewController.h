@@ -7,8 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Accounts/Accounts.h>
+#import <Social/Social.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>{
+    IBOutlet UIView *contentView;
+    IBOutlet UITableView *contentTableView;
+}
+
+@property (nonatomic,strong) NSMutableArray *tableViewDataArray;
+
+typedef void (^pressButtonCallBack)(int index);
+/** ボタン押下時のコールバック */
+@property(nonatomic, strong) pressButtonCallBack pressButtonCallBack;
+
 
 
 @end
