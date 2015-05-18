@@ -9,7 +9,7 @@
 #import "ApiAccessManager.h"
 #import "ApiAccess.h"
 
-#define API_URL @"http://192.168.1.153/test.php"
+#define API_URL @"http://localHost/test.php"
 
 @implementation ApiAccessManager
 
